@@ -1,0 +1,93 @@
+.imageContainer {
+    height: 114vh;
+    width: 100%;
+    display: flex;
+}
+
+.aboutCompany {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutCompany h1 {
+    width: 500px;
+    color: #000;
+    font-family: Oswald;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 140%;
+    /* 89.6px */
+    letter-spacing: -1.28px;
+    margin-bottom: 40px;
+    text-align: left;
+
+}
+
+.aboutCompany h1 span {
+    color: #F36F2B;
+}
+
+.importantPoints {
+    height: auto;
+    width: 500px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.content {
+    text-align: left;
+    width: 450px;
+
+}
+
+.content h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: #6B6B6B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.eventsImage {
+    width: 50%;
+    position: relative;
+}
+
+.coverImage {
+    
+    width: 670px;
+    height: 730px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    object-fit: cover;
+}
+
+.connectImage {
+    width: 670px;
+    height: 730px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    object-fit: cover;
+
+}

@@ -1,0 +1,139 @@
+.footerContainer {
+    height: 330px;
+    background-color: black;
+}
+
+.footerMenu {
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.socialConnect {
+    width: 25%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.socialIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.border {
+    width: 1px;
+    height: 250px;
+    opacity: 0.2;
+    background: #FFF;
+}
+
+.menu1,
+.menu2,
+.menu3 {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.menu2 {
+    width: 18%;
+    padding-left: 70px;
+}
+
+.menu3 {
+    width: 15%;
+    height: 200px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.menu4 {
+    height: 180px;
+    width: 15%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.menu1 h1,
+.menu2 h1,
+.menu3 h1,
+.menu4 h1 {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 220%;
+    cursor: pointer;
+    /* 35.2px */
+}
+
+.menu1 p,
+.menu2 p,
+.menu3 p,
+.menu4 p {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    cursor: pointer;
+    /* 25.6px */
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    opacity: 0.2;
+    background: #FFF;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+}
+
+.copyrightauthorization {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.condition {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.copyrightauthorization p,
+.condition span {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 220%;
+    /* 39.6px */
+}

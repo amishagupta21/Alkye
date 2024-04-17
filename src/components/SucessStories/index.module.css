@@ -1,0 +1,109 @@
+
+.sucessImages {
+    height: 1100px;
+    width: 100%;
+    background-image: url("../../utils//images/events1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sucessContent {
+    width: 580px;
+    margin-top: 100px;
+    margin-left: 120px;
+
+}
+
+.sucessContent h1 {
+    color: #000;
+    font-family: "Oswald";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 140%;
+    letter-spacing: -1.28px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.sucessContent h1 span {
+    color: #F36F2B;
+}
+
+.sucessContent p {
+    color: #515151;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.employeeAppreciation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.appreciationContent {
+    width: 600px;
+}
+
+.appreciationContent h1 {
+    color: #000;
+    font-family: "Oswald";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 140%;
+    letter-spacing: -1.28px;
+
+}
+
+.appreciationContent h1 span {
+    color: #F36F2B;
+}
+
+.appreciationContent p {
+    margin-top: 30px;
+    color: #515151;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.employeeAppreciation img {
+    width: 645px;
+    height: 380px;
+    flex-shrink: 0;
+}
+
+.appreciationImages {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+
+}
+
+.appreciationImages img:nth-child(1) {
+    width: 830px;
+}
+
+.appreciationImages img:nth-child(2) {
+    width: 475px;
+
+}

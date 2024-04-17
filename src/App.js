@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import StayConnected from './components/AboutCompany';
+import Footer from './components/Footer';
+import GlobalContact from './components/GlobalContact';
+import HeroSection from './components/HeroSection';
+import LastestUpdates from './components/LastestUpdates';
+import Navbar from './components/Navbar';
+import StrategicInitiatives from './components/StrategicInitiatives';
+import SucessStories from './components/SucessStories';
+import Testimonial from './components/Testimonial';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar/>
+      <HeroSection/>
+      <LastestUpdates/>
+      <StayConnected/>
+      <StrategicInitiatives/>
+      <SucessStories/>
+      <Testimonial/>
+      <GlobalContact/>
+      <Footer/>
+    </>
   );
 }
 
